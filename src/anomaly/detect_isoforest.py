@@ -14,7 +14,7 @@ def train_isolation_forest(data_path="data/processed/prices_cleaned.csv"):
     features = df[["return_1", "return_6", "return_24", "volatility_6"]]
     model = IsolationForest(
         n_estimators=300,
-        contamination=0.02,  # 2% considered anomalies
+        contamination=0.02,  
         random_state=42
     )
     model.fit(features)
