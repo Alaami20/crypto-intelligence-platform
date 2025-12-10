@@ -1,10 +1,12 @@
 import numpy as np
 import pandas as pd
 import joblib
-from tensorflow.keras.models import load_model
+from tensorflow.keras.models import load_model # type: ignore
 
 from utils_dl import create_sequences
-from utils_ml import add_features
+from utils_dl import add_features
+
+
 
 
 DATA_PATH = "data/processed/prices_cleaned.csv"

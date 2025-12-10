@@ -1,32 +1,10 @@
- # --- API Framework ---
-fastapi
-uvicorn[standard]
-python-multipart
-pydantic
-
-# --- Core Data Science ---
-pandas
 numpy
+pandas
 scikit-learn
-xgboost
-
-# --- Deep Learning (LSTM) ---
-tensorflow
-keras
-
-# --- Embeddings + RAG ---
-sentence-transformers
-faiss-cpu
-
-# --- Visualization / Debugging ---
+tensorflow-macos==2.13.0
 matplotlib
-
-# --- Networking / Requests ---
 requests
-aiohttp
-
-# --- Crypto APIs ---
-python-binance
-
-# --- Utils ---
 python-dotenv
+flask
+ta
+SQLAlchemy
