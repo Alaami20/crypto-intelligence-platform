@@ -11,7 +11,7 @@ const news = [
     time: "1h ago",
     impact: "bullish",
     category: "Regulation",
-    summary: "The SEC has approved options trading on spot Bitcoin ETFs, potentially opening new avenues for institutional investment.",
+    summary: "The SEC has approved options trading on spot Bitcoin ETFs, potentially opening new avenues for institutional investment. This landmark decision marks a significant step forward for cryptocurrency adoption in traditional financial markets.",
   },
   {
     id: 2,
@@ -20,7 +20,7 @@ const news = [
     time: "3h ago",
     impact: "bullish",
     category: "Technology",
-    summary: "New upgrade promises 40% improvement in transaction throughput and reduced gas fees for L2 solutions.",
+    summary: "New upgrade promises 40% improvement in transaction throughput and reduced gas fees for L2 solutions. The Pectra upgrade is expected to go live in Q1 2025, bringing significant improvements to the network's scalability.",
   },
   {
     id: 3,
@@ -29,7 +29,7 @@ const news = [
     time: "5h ago",
     impact: "bearish",
     category: "Analysis",
-    summary: "Goldman Sachs analysts predict increased volatility ahead of upcoming Federal Reserve meeting.",
+    summary: "Goldman Sachs analysts predict increased volatility ahead of upcoming Federal Reserve meeting. The report suggests traders should prepare for potential price swings in both directions.",
   },
   {
     id: 4,
@@ -38,7 +38,43 @@ const news = [
     time: "6h ago",
     impact: "bullish",
     category: "Network",
-    summary: "Solana achieves new milestone as DeFi and NFT activity surge on the network.",
+    summary: "Solana achieves new milestone as DeFi and NFT activity surge on the network. This represents a 150% increase from the previous record set earlier this year.",
+  },
+  {
+    id: 5,
+    title: "BlackRock Bitcoin ETF Sees Record $1.2B Inflow",
+    source: "Financial Times",
+    time: "8h ago",
+    impact: "bullish",
+    category: "Institutional",
+    summary: "BlackRock's iShares Bitcoin Trust (IBIT) recorded its largest single-day inflow since launch. Institutional demand continues to drive crypto market growth.",
+  },
+  {
+    id: 6,
+    title: "Ripple Partners with Major Asian Banks for Cross-Border Payments",
+    source: "CryptoNews",
+    time: "10h ago",
+    impact: "bullish",
+    category: "Partnership",
+    summary: "Ripple announces strategic partnerships with three major Asian banks to facilitate instant cross-border payments using XRP. The partnership is expected to process over $5B in transactions monthly.",
+  },
+  {
+    id: 7,
+    title: "Federal Reserve Signals Continued Rate Holds",
+    source: "CNBC",
+    time: "12h ago",
+    impact: "bullish",
+    category: "Macro",
+    summary: "Fed Chair indicates rates will likely remain steady through Q1 2025, providing a favorable environment for risk assets including cryptocurrencies.",
+  },
+  {
+    id: 8,
+    title: "Cardano Launches New Smart Contract Platform",
+    source: "Decrypt",
+    time: "14h ago",
+    impact: "bullish",
+    category: "Technology",
+    summary: "Cardano unveils its next-generation smart contract platform with enhanced scalability and lower transaction costs. Developers report 10x improvement in contract execution speed.",
   },
 ];
 
@@ -97,7 +133,7 @@ export const NewsSection = () => {
                   {item.title}
                 </h3>
 
-                <p className="text-sm text-muted-foreground mb-4 line-clamp-2">
+                <p className="text-sm text-muted-foreground mb-4">
                   {item.summary}
                 </p>
 

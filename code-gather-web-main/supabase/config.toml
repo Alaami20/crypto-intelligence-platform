@@ -1,0 +1,10 @@
+project_id = "ufzirlxlmjfmjgvzkjlq"
+
+[functions.crypto-prices]
+verify_jwt = false
+
+[functions.ai-crypto-analysis]
+verify_jwt = false
+
+[functions.ai-chat]
+verify_jwt = false
